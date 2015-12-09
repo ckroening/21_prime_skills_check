@@ -1,3 +1,54 @@
+h1 {
+	font-family: "Garamond";
+	font-color: purple;
+	background-color: #ff4400;
+	width: 800px;
+	margin: auto 8% auto 8%;
+	text-align: center;
+}
+h2 {
+	font-family: "Garamond";
+	font-color: purple;
+	background-color: #ff4400;
+	width: 400px;
+	padding: 10px;
+	margin: 2% 8% auto 8%;
+	text-align: center;
+
+}
+ul, li {
+	list-style-type: none;
+	display: inline;
+	position: float;
+}
+main {
+    display : inline-block;
+    width : 800px;
+    border-width : 2px;
+    border-style : dashed;
+    border-color : purple;
+    margin: auto 8% auto 8%;
+}
+article {
+	display: inline-block;
+	width: 65%;
+	margin: auto auto auto 1%;
+}
+aside {
+    display : inline-block;
+    width : 25%;
+    float: right;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+}
+table, tr, td, th {
+	border: 2px solid purple;
+	margin: 2% auto 2% 2%;
+	height: 400px;
+	width: 220px;
+}
 /** Apply a fancy font to all heading tags **/
 
 /** Give the header a distinct background color using a hex value **/

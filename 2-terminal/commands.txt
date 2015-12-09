@@ -8,7 +8,7 @@ $cd
 $cd ~
 
 # 3 - What is a quick way to get to the root directory?
-$ cd /
+$cd /
 
 # 4 - How do you quickly create an empty file?
 $touch filename.ext
