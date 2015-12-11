@@ -8,14 +8,14 @@ $(document).ready(function(){
  	var gotchaButton = $('<input type="button" value="gotcha" class="gotcha"/>');
         $('.primary').append(gotchaButton);
 
+	// When the button is clicked, update the section element with
+	// a paragraph that says "I traverse the DOM like a champ"
 	$('.gotcha').on('click', function() {
 		$('.primary .status').append('<p>I traverse the DOM like a champ</p>');
 	});
-	// When the button is clicked, update the section element with
-	// a paragraph that says "I traverse the DOM like a champ"
 
-	// this code also works:
-	//  
+	// This code also works:
+	 
 	// gotchaButton.on('click', function() {
 	//	$('.primary .status').append('<p>I traverse the DOM like a champ</p>');
 	//});
