@@ -43,10 +43,17 @@ aside {
     padding-bottom: 10px;
     padding-left: 1px;
 }
-table, tr, td, th {
+table, td {
 	border: 2px solid purple;
 	margin: 2% auto 2% 2%;
 	height: 400px;
+	width: 220px;
+}
+
+tr, th {
+	border: 2px solid purple;
+	margin: 2% auto 2% 2%;
+	height: 100px;
 	width: 220px;
 }
 /** Apply a fancy font to all heading tags **/
