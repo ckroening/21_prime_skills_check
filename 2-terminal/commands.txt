@@ -1,6 +1,7 @@
 # This module gauges your comfort with often-used terminal commands.
 # Type your responses on a new line.
 
+
 # 1 - What is the command for changing directories?
 $cd
 
