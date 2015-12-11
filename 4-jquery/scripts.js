@@ -19,7 +19,5 @@ $(document).ready(function(){
 	// gotchaButton.on('click', function() {
 	//	$('.primary .status').append('<p>I traverse the DOM like a champ</p>');
 	//});
-//});
-
 	
 });
