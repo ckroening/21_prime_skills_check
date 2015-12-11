@@ -1,4 +1,5 @@
 # This exercise tests your comfort with common Git commands.
+
 # Type your answers on a new line.
 
 # Type the command for creating a new local git repository in the current directory
