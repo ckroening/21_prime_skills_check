@@ -13,6 +13,7 @@ $(document).ready(function(){
 		});
 	// When the button is clicked, update the section element with
 	// a paragraph that says "I traverse the DOM like a champ"
+	
 	// this code also works:
 	//  
 	// gotchaButton.on('click', function() {
