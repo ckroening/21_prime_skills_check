@@ -27,12 +27,8 @@ console.log(remove);
 // 4 - Use the map method to 
 // halve the value of each
 // value in the array.
-remove.map = function(change) {
-	this.forEach(function(item) {
-		item *= 0.5;
-		remove.push(change(item));
-	});
-	return remove;
-}
+
+remove = remove.map(function(item) {
+	return item *= 0.5;
+});
 console.log(remove);
-// Got stuck on this part. Return to fix later.
