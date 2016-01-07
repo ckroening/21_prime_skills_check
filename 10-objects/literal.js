@@ -24,9 +24,7 @@ prime.address = "9401 James Ave S #152";
 // will console log out the complete
 // address of prime. Call the new
 // property/method print.
-
 var print = function() {
 	console.log(prime);
 };
-
 prime.print = print;
